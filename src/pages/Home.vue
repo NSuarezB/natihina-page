@@ -17,6 +17,7 @@
                 style="width: 200px; height: 200px"
                 :src="require('@/assets/fotoNat.png')"
                 :fit="fit"
+                alt="Natalia"
               ></b-image>
             </div>
           </div>

@@ -18,15 +18,15 @@
             </a>
           </b-navbar-item>
           <b-navbar-item tag="div">
-            <a href="https://github.com/NSuarezB" target="_blank" class="button is-small is-rounded is-outlined is-github">
+            <a href="https://github.com/NSuarezB" rel="noreferrer" target="_blank" class="button is-small is-rounded is-outlined is-github">
               <span class="icon is-medium">
-                <b-icon :type="{ 'is-success': isGreen }" pack="fab" icon="github"></b-icon>
+                <b-icon :type="{ 'is-success': isGreen }" pack="fab"  icon="github"></b-icon>
               </span>
               <span> Github</span>
             </a>
           </b-navbar-item>
           <b-navbar-item href="#" tag="div">
-            <a href="https://www.linkedin.com/in/natihina" target="_blank" class="button is-small is-rounded is-outlined is-linkedin">
+            <a href="https://www.linkedin.com/in/natihina" rel="noreferrer" target="_blank" class="button is-small is-rounded is-outlined is-linkedin">
               <span class="icon is-medium">
                 <b-icon :type="{ 'is-success': isGreen }" pack="fab" icon="linkedin-in"></b-icon>
               </span>
