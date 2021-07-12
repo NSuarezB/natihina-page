@@ -9,7 +9,7 @@
     </section>
     <footer>
       <div class="footer natihina__footer">
-        <div class="content has-text-centered">This is my footer</div>
+        <div class="content has-text-centered">Created by Natihina - 2021</div>
       </div>
     </footer>
   </div>
@@ -26,6 +26,9 @@ export default {
     Home,
     Header,
   },
+   metaInfo: {
+      title: 'Natihina - Natalia Suarez',
+    }
 };
 </script>
 
