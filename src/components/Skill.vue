@@ -4,7 +4,7 @@
         <figure class="image">
           <img
             :src="require('@/assets/' + this.image)"
-            :alt="card.name"
+            :alt="this.name"
           />
         </figure>
       </div>
