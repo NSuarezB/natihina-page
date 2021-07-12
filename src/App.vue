@@ -1,28 +1,49 @@
 <template>
-  <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <div id="app" class="natihina">
+    <header>
+      <Header />
+    </header>
+    <section class="section natihina__body">
+      <!--<router-view />-->
+      <Home />
+    </section>
+    <footer>
+      <div class="footer natihina__footer">
+        <div class="content has-text-centered">This is my footer</div>
+      </div>
+    </footer>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import Home from "./pages/Home.vue";
+import Header from "./components/Header.vue";
+
 
 export default {
-  name: 'App',
+  name: "App",
   components: {
-    HelloWorld
-  }
-}
+    Home,
+    Header,
+  },
+};
 </script>
 
 <style lang="scss">
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+.natihina {
+  &__header {
+  }
+  &__body {
+    min-height: 20rem;
+  background-image: url("assets/backgroundImage.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  }
+  &__footer {
+  }
+
+
 }
+
+
 </style>
