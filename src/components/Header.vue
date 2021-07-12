@@ -3,7 +3,10 @@
         <template #end>
           <b-navbar-item class="item__logo" tag="router-link" :to="{ path: '/' }">
             <b-image
-                        :src="require('@/assets/logoNatihina.png')" >          
+                        :src="require('@/assets/logoNatihina.png')"
+                        alt="logo"
+                                                 > 
+                                 
 
             </b-image>
           </b-navbar-item>
