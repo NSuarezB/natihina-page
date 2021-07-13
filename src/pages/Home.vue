@@ -24,7 +24,7 @@
           <div class="columns item__skills">
               
             <div class="column skills__title">
-              <h2><b> Skills </b></h2>
+              <h2><b> {{ $t("skills.title") }} </b></h2>
             </div>
           </div>
           <div class="columns item__skills is-multiline">
@@ -71,11 +71,10 @@ export default {
         },
         {
           message:
-            "Y me gusta mucho {piensa en algo que te guste} { Ampliación de algo que te guste}}.",
+            "Y me gusta mucho el Front-End en la informatica, ya que, es el apartado que siento, tiene mas feedback.",
           icon: "heart",
         },
         { message: "Carnet de conducir: B", icon: "car" },
-        { message: "{ Actitudes }." },
       ],
       skills: [
           {name:"HTML 5", progress:"9",image:"htmlLogo.png"},

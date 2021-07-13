@@ -38,7 +38,7 @@ export default {
 .card {
   padding:1em;
   min-width: auto;
-  min-height: 20em;
+  min-height: 12em;
   display: flex;
     flex-direction: column;
     justify-content: center;
@@ -52,7 +52,7 @@ export default {
     }
 
     &__image{
-        flex-grow:0.7;
+        flex-grow:0.3;
         
     }
 
