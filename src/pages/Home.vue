@@ -63,18 +63,19 @@ export default {
     return {
       items: [
         { message: "Natalia Suarez Benitez", icon: "child" },
-        { message: "19 de abril de 1999", icon: "baby-carriage" },
+        { message: 
+        this.$t("info.born"),
+          icon: "baby-carriage" },
         {
           message:
-            "Soy una persona muy adaptable, me gusta mucho trabajar en equipo ya que es la mejor manera de conocer a tus compañeros.",
+          this.$t("info.am"),
           icon: "dice",
         },
         {
-          message:
-            "Y me gusta mucho el Front-End en la informatica, ya que, es el apartado que siento, tiene mas feedback.",
+          message: this.$t("info.like"),
           icon: "heart",
         },
-        { message: "Carnet de conducir: B", icon: "car" },
+        { message: this.$t("info.driving", {license: "B"}), icon: "car" },
       ],
       skills: [
           {name:"HTML 5", progress:"9",image:"htmlLogo.png"},

@@ -35,7 +35,8 @@ Vue.config.productionTip = false
 import enLocale from './locales/en'
 import esLocale from './locales/es'
 const i18n = new VueI18n({
-  locale: 'es',
+  locale: navigator?.language?.split('-')[0],
+  fallbackLocale: 'es',
   messages: {
     en: enLocale,
     es: esLocale,
